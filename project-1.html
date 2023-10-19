@@ -1,0 +1,43 @@
+<!-- Fahrenheit(°F)=(Celsius(°C)×9/5)+32;
+Formula: Kelvin (K) = Celsius (°C) + 273.15
+Formula: Rankine (°R) = (Celsius (°C) × 9/5) + 491.67te
+Formula: Réaumur (°Re) = Celsius (°C) × 4/5
+Formula: Celsius (°C) = (Fahrenheit (°F) - 32) × 5/9
+Formula: Kelvin (K) = Celsius (°C) + 273.15
+Formula: Rankine (°R) = Fahrenheit (°F) + 459.67
+Formula: Réaumur (°Re) = (Fahrenheit (°F) - 32) × 5/9 × 4/5
+Formula: Celsius (°C) = Kelvin (K) - 273.15
+Formula: Fahrenheit (°F) = (Celsius (°C) × 9/5) + 32
+Formula: Rankine (°R) = Kelvin (K) × 9/5
+Formula: Réaumur (°Re) = (Kelvin (K) - 273.15) × 4/5
+c 0-100--40
+f 32-212--40
+k 273-373-233 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project-1.css">
+</head>
+<body>
+<div class="temparture">
+    <h1>temparture converter </h1>
+    <h3>celsius button convert celsius to fahrenheit and kelvin<br>fahrenheit button convert fahrenhiet to celusius and kelvin <br>kelvin button convert kelvin to celusis and fahrenheit </h3>
+    <input class="tem" id="temp" type="number" placeholder="enter the temparture" autofocus><br>
+
+
+
+
+    <button onclick="celsius()" onmouseover="text()">Celsius</button>
+    <button id="animation" onclick="fahrenheit()">Fahrenheit</button>
+    <button onclick="kelvin()">Kelvin</button>
+  
+    <p id="t1"></p>
+    <p id="t2"></p>
+    <button onclick="reset()">reset</button>
+ </div>
+    <script src="project-1.js"></script>
+</body>
+</html>
