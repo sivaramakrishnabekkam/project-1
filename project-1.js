@@ -42,7 +42,7 @@ function fahrenheit(){
     }
     else{
 
-    var c=(tempature -32)+5/9;
+    var c=(tempature -32)/1.8;
     var k=c+273;
     te1.innerHTML="CELSIUS :"+c.toFixed(2);
     te2.innerHTML="KELVIN:"+k.toFixed(2);
